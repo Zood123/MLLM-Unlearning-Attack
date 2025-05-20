@@ -46,7 +46,7 @@ class Attacker:
         self.model.requires_grad_(False)
 
         
-        denoiser_path = "/models/DnCNN/checkpoint.pth.tar"
+        denoiser_path = "/model/DnCNN/checkpoint.pth.tar"
         checkpoint = torch.load(denoiser_path,weights_only=True)
         self.denoiser = DnCNN(image_channels=3, depth=17, n_channels=64)
         self.denoiser = torch.nn.DataParallel(self.denoiser)
