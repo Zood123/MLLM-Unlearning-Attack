@@ -5,7 +5,7 @@ from torchvision.utils import save_image
 import gc
 import numpy as np
 from llava_llama_2.utils import train_collate_fn_llava
-from models.DnCNN.DnCNN import DnCNN
+from model.DnCNN.DnCNN import DnCNN
 import os
 
 
