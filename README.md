@@ -9,9 +9,7 @@ This repository provides code for conducting **adversarial attacks on MLLMs**.
 
 ### Prerequisites
 - Python 3.8+
-- CUDA-enabled GPU(s)
-- PyTorch (with CUDA support)
-- Hugging Face Transformers
+
 
 ### Environment Variables
 Before running, configure Hugging Face authentication:
